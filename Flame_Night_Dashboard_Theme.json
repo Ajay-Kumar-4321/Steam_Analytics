@@ -1,0 +1,99 @@
+{
+  "name": "Flame & Night Theme",
+  "dataColors": [
+    "#FF4500",
+    "#8E24AA",
+    "#FFD60A",
+    "#C8102E",
+    "#6A0DAD",
+    "#FF6B00",
+    "#4B0082",
+    "#FF1493",
+    "#B22222",
+    "#FF8C00"
+  ],
+  "background": "#15081F",
+  "foreground": "#FDF3E7",
+  "tableAccent": "#FF6B00",
+  "good": "#FFD60A",
+  "bad": "#C8102E",
+  "neutral": "#8E24AA",
+  "maximum": "#FF4500",
+  "center": "#FFD60A",
+  "minimum": "#4B0082",
+  "textClasses": {
+    "callout": {
+      "fontSize": 32,
+      "color": "#FF6B00",
+      "fontFace": "Segoe UI Black"
+    },
+    "title": {
+      "fontSize": 15,
+      "color": "#FDF3E7",
+      "fontFace": "Segoe UI Semibold"
+    },
+    "header": {
+      "fontSize": 26,
+      "color": "#FFD60A",
+      "fontFace": "Segoe UI Black"
+    },
+    "label": {
+      "fontSize": 10,
+      "color": "#C9A7E8"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1F0E2E" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FF6B00" } },
+            "radius": 10
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "preset": "Specific settings",
+            "color": { "solid": { "color": "#FF4500" } },
+            "transparency": 75,
+            "position": "Outer",
+            "shadowBlur": 10,
+            "angle": 45,
+            "distance": 2
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#FDF3E7" } },
+            "background": { "solid": { "color": "#1F0E2E" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FF6B00" } },
+            "fontSize": 32
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#C9A7E8" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    }
+  }
+}
